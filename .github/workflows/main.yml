@@ -52,7 +52,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /root/realworld-nuxtjs
+            cd /apps/nuxt-realword-example-app
             wget https://github.com/robbchan/nuxt-realword-example-app/releases/latest/download/release.tgz -O release.tgz
             tar zxvf release.tgz
             npm install --production
